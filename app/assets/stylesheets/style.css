@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps|Karla);
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script|Karla|Courgette);
 
 html {
 font-family: "Karla", sans-serif;
@@ -17,7 +17,7 @@ font-family: "Karla", sans-serif;
 }
 
 h1, h2, h4, h5, h6 {
-  font-family: "Oleo Script Swash Caps", sans-serif;
+  font-family: "Courgette", sans-serif;
 }
 
 .section-spacer {
