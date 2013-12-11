@@ -16,7 +16,7 @@ font-family: "Karla", sans-serif;
   width: 100%
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h5, h6 {
   font-family: "Oleo Script Swash Caps", sans-serif;
 }
 
@@ -98,16 +98,33 @@ section {
 
 .project {
   margin-bottom: 20px;
+  text-align: left;
 }
 
 .project span {
   display: none;
 }
 
-.project-image {
-  padding: 20px;
+.work a {
+  color: #ddd;
 }
 
-.project-image img {
-  opacity: 0.9;
+.work a:hover {
+  color: white;
+}
+
+.project-link a:hover {
+  text-decoration: underline;
+}
+
+
+/* footer */
+
+.footer {
+  padding-bottom: 30px;
+}
+
+.social {
+  float: right;
+  padding-right: 20px;
 }
