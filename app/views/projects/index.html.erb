@@ -4,7 +4,7 @@
   <title>Emma Spencer</title>
 </head>
 <body>
-
+<!-- navigation -->
   <nav class="navigation-wrapper">
     <h1 class='title'><a href="navigation-wrapper">Emma Spencer</a></h1>
     <div class="buttons-wrapper">
@@ -24,21 +24,22 @@
       </ul>
     </div>
   </nav>
+<div class='all_content'>
 
-  <div class='nav-offset-fix'></div>
+<!-- hero image -->
+<div class='hero'>
+</div>
 
+<!-- about -->
   <section class='about'>
-    <div class='row'>
-      <h1>About</h1>
-    </div>
     <div class='about-content row'>
       <div class='small-12 medium-4 columns'>
         <h2>about me</h2>
-        <%= link_to image_tag 'emma_ga.jpg', radius: 25, alt: 'emma' %>
+        <p>Hi! I'm a web developer in Boston. I write mostly in Ruby and Javascript. I like RESTful APIs, writing gems, etc.</p>
       </div>
       <div class='small-12 medium-4 columns'>
         <h2>what I do</h2>
-        <p>Hi! I'm Emma Spencer, a web developer in Boston. I write mostly in Ruby and Javascript. I like RESTful APIs, writing gems, etc</p>
+        <p>more stuff here</p>
       </div>
       <div class='small-12 medium-4 columns'>
         <h2>find me on</h2>
@@ -58,37 +59,25 @@
     <div class='work-content row'>
 
       <div class='small-6 columns project'>
+        <h2>Ladyparts</h2>
+        <span class='project-description'>Ladyparts explores lady-friendly films.</span>
+        <span class='project-link'><a href='http://ladyparts.herokuapp.com'>Check it out!</a></span>
+      </div>
+
+      <div class='small-6 columns project'>
+        <h2>nytimes-bestsellers Ruby gem</h2>
+        <span class='project-description'>A gem for the NYTimes Best Sellers API.</span>
+        <span class='project-link'><a href='http://ladyparts.herokuapp.com'>Check it out!</a></span>
+      </div>
+
+      <div class='small-6 columns project'>
         <h2>Sweet Project</h2>
-        <div class='project-image'>
-          <img src='http://1.bp.blogspot.com/-n4UTP4UC47w/UTkRtqWUW7I/AAAAAAAAEq0/n2WnEeQifIc/s1600/thelandlou1.jpg'>
-        </div>
         <span class='project-description'>This is an awesome description</span>
         <span class='project-link'><a href='http://ladyparts.herokuapp.com'>Check it out!</a></span>
       </div>
 
       <div class='small-6 columns project'>
         <h2>Sweet Project</h2>
-        <div class='project-image'>
-          <img src='http://1.bp.blogspot.com/-n4UTP4UC47w/UTkRtqWUW7I/AAAAAAAAEq0/n2WnEeQifIc/s1600/thelandlou1.jpg'>
-        </div>
-        <span class='project-description'>This is an awesome description</span>
-        <span class='project-link'><a href='http://ladyparts.herokuapp.com'>Check it out!</a></span>
-      </div>
-
-      <div class='small-6 columns project'>
-        <h2>Sweet Project</h2>
-        <div class='project-image'>
-          <img src='http://1.bp.blogspot.com/-n4UTP4UC47w/UTkRtqWUW7I/AAAAAAAAEq0/n2WnEeQifIc/s1600/thelandlou1.jpg'>
-        </div>
-        <span class='project-description'>This is an awesome description</span>
-        <span class='project-link'><a href='http://ladyparts.herokuapp.com'>Check it out!</a></span>
-      </div>
-
-      <div class='small-6 columns project'>
-        <h2>Sweet Project</h2>
-        <div class='project-image'>
-          <img src='http://1.bp.blogspot.com/-n4UTP4UC47w/UTkRtqWUW7I/AAAAAAAAEq0/n2WnEeQifIc/s1600/thelandlou1.jpg'>
-        </div>
         <span class='project-description'>This is an awesome description</span>
         <span class='project-link'><a href='http://ladyparts.herokuapp.com'>Check it out!</a></span>
       </div>
@@ -102,6 +91,6 @@
     <h1>Contact</h1> 
     <div style='height:500px;'></div>
   </section>
-
+</div>
 </body>
 </html>
