@@ -85,6 +85,15 @@ section {
   padding: 10px;
 }
 
+.social-media li {
+  display: inline-block;
+  margin: auto;
+}
+
+.social-icon {
+  margin-left: 20px;
+}
+
 /* Portfolio section */
 
 .project {
