@@ -1,7 +1,17 @@
-@import url(http://fonts.googleapis.com/css?family=Oleo+Script|Karla|Courgette);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
 
 html {
-font-family: "Karla", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+a, a:visited, a:hover {
+  text-decoration: none;
+  color: #13597F;
+}
+
+a:hover {
+  color: #0B354C;
 }
 
 body {
@@ -12,4 +22,5 @@ body {
 
 .main-content {
   margin-top: 200px;
+  line-height: 30px;
 }
