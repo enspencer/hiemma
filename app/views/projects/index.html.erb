@@ -1,111 +1,26 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Emma Spencer</title>
-</head>
-<body>
-  <!-- navigation -->
-  <nav class="navigation-wrapper">
-    <h1 class='title'><a href="navigation-wrapper">Emma Spencer</a></h1>
-    <div class="buttons-wrapper">
-      <ul>
-        <a href="about"><li>
-          ABOUT
-        </li></a>
-        <a href="work"><li>
-          WORK
-        </li></a>
-        <a class='direct-link' href="/EmmaSpencer_Portfolio_Resume.pdf" target='_blank'><li>
-          RESUME
-        </li></a>
-        <a class='direct-link' href="http://github.com/enspencer" target='_blank'><li>
-          GITHUB
-        </li></a>
-      </ul>
-    </div>
-  </nav>
-  <div class='all_content'>
-
-    <!-- hero image -->
-    <!-- image source and design inspiration: https://github.com/sevenadrian/foxslide -->
-    <div class='hero'>
-    </div>
-
-    <!-- about -->
-    <section class='about'>
-      <div class='about-content row'>
-        <div class='small-12 medium-8 columns'>
-          <h2>about me</h2>
-          <p>Hello! I'm a full-stack Rails developer in Boston. I want to build tools to help people do amazing things. If you're looking for a developer, let's talk!</p>
-        </div>
-<!--         <div class='small-12 medium-4 columns'>
-          <h2>what I do</h2>
-          <p>Recently I've been having fun making gems for REST APIs</p>
-        </div> -->
-        <div class='small-12 medium-4 columns'>
-          <h2 style='margin-left:60px;'>find me on</h2>
-          <ul class='social-media row'>
-            <li><a href='http://www.linkedin.com/pub/emma-spencer/41/62a/28a'><%= image_tag 'linkedin-icon.png', size: '60x60', class: 'social-icon', alt: 'linkedin-icon' %></a></li>
-            <li><a href='http://www.twitter.com/enspencer'><%= image_tag 'twitter-icon.png', size: '60x60', class: 'social-icon', alt: 'twitter-icon' %></a></li>
-            <li><a href='http://www.instagram.com/enspencer'><%= image_tag 'instagram-icon.png', size: '60x60', class: 'social-icon', alt: 'instagram-icon' %></a></li>
-          </ul>
-          <div class='row'>
-            <h2 style='margin-left:60px;'>contact at</h2>
-            <p style='font-size:18px;text-align:center;margin-top:-10px;margin-left:70px;'>emma.n.spencer@gmail.com</p>
-          </div>
-        </div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emma Spencer</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="main-content small-6 small-centered columns">
+        Hello. I'm Emma Spencer, a web developer based in Boston. You can find me online on <a href="http://www.twitter.com/enspencer">Twitter</a>, <a href="httpL//www.linkedin.com/pub/emma-spencer/41/62a/28a/">LinkedIn</a>, <a href="https://github.com/enspencer">Github</a>, <a href="http://www.last.fm/user/stopthemusical">last.fm</a>, or in person at <a href="http://www.maxwellhealth.com">Maxwell Health</a>, where I work. 
       </div>
-    </section>
+    </div>
+   
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    <div class='section-spacer'></div>
+      ga('create', 'UA-46410305-1', 'hiemma.com');
+      ga('send', 'pageview');
 
-    <section class='work'>
-      <div class='row'><h1>Work</h1></div>
-      <div class='work-content row'>
-
-        <div class='small-6 columns project'>
-          <a href='http://ladyparts.herokuapp.com'><h2>Ladyparts</h2></a>
-          <span class='project-link'><h3>Ladyparts is a web app that explores films that depict multifaceted female characters using the Bechdel Test and the Rotten
-            Tomatoes API and presents the dataset using interactive d3.js graphs. 
-            <a href='http://ladyparts.herokuapp.com'>View the project.</a></h3></span>
-        </div>
-
-        <div class='small-6 columns project'>
-            <a href='http://github.com/enspencer/nytimes-bestsellers'><h2>nytimes-bestsellers Ruby gem</h2></a>
-            <span class='project-link'><h3>A gem for the NYTimes Best Sellers List API. <a href='http://github.com/enspencer/nytimes-bestsellers'>View it on Github.</a></h3></span>
-        </div>
-          <div class='section-spacer'></div>
-          <div class='section-spacer'></div>
-
-          <div class='small-6 columns project'>
-            <a href='http://www.github.com/enspencer/nypl-collections'><h2>nypl-collections Ruby gem</h2></a>
-            <span class='project-link'><h3>A gem for the New York Public Library Digital Collections API. 
-              <a href='http://www.github.com/enspencer/nypl-collections'>View it on Github.</a></h3></span>
-            </div>
-
-          <div class='small-6 columns project'>
-            <a href='http://callen6.github.io/ProtoBreadcrumbsAndBeanstalks/'><h2>Breadcrumbs & Beanstalks</h2></a>
-            <span class='project-link'><h3>A multi-axis book discovery viewer. Built for the NYPL Open Book Hack Weekend.
-              <a href='https://github.com/callen6/ProtoBreadcrumbsAndBeanstalks'>View it on Github.</a></h3></span>
-            </div>
-
-            <div class='section-spacer'></div>
-            <div class='section-spacer'></div>
-          </div>
-
-        </section>
-
-      </div>
-
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-46410305-1', 'hiemma.com');
-        ga('send', 'pageview');
-
-      </script>
-    </body>
-    </html>
+    </script>
+  </body>
+</html>

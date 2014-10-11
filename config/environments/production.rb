@@ -79,4 +79,7 @@ Hiemma::Application.configure do
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
 
+  # Add Modernizr for ZURB Foundation
+  config.assets.precompile += %w( vendor/modernizr.js )
+
 end
